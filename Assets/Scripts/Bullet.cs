@@ -16,7 +16,9 @@ public class Bullet : MonoBehaviour {
     private bool hit;
 
     private void Start() {
-        Vector3 forceDirection = (target.position - transform.position).normalized;
+        Vector3 finalPosition = target.position;
+        finalPosition.y += 0.5f;
+        Vector3 forceDirection = (finalPosition - transform.position).normalized;
         rb.AddForce(forceDirection * speed, ForceMode.Impulse);
     }
     

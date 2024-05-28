@@ -191,12 +191,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef1ff775c5233044594fd5813ef1a7aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 2.5
+  range: 2.2
   fireRate: 1
   bulletPrefab: {fileID: 5907044042214136851, guid: a4a545e04771cdb4c8c919a3e926aba2, type: 3}
   bulletPoint: {fileID: 4925695082998212784}
   damage: 1
   bulletSpeed: 20
+  anim: {fileID: 2316370402148260729}
 --- !u!4 &8542204971715244279 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6328476470596349915, guid: ea244f0f1841a244b9b49cce913594e2, type: 3}
